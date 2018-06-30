@@ -10,7 +10,7 @@ import Foundation
 
 extension String {
 	func IsValidDie(_ dice: Int) -> Bool {
-		let die = [2, 4, 6, 8, 10, 12, 20]
+		let die = [2, 4, 6, 8, 10, 12, 20, 100]
 		if die.contains(dice) {
 			return true
 		} else {

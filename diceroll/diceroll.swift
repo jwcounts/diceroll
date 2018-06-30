@@ -81,7 +81,7 @@ class diceroll {
 				case "Too many dice":
 					consoleIO.writeMessage("Too many dice to roll, please enter less than 100", to: .error)
 				case "Not a valid type":
-					consoleIO.writeMessage("Not a valid die type. Supported # of sides is 2, 4, 6, 8, 10, 12, or 20.", to: .error)
+					consoleIO.writeMessage("Not a valid die type. Supported # of sides is 2, 4, 6, 8, 10, 12, 20, or 100.", to: .error)
 				case "Invalid format":
 					consoleIO.writeMessage("Invalid dice format. Please enter as (# of dice)d(# of sides)", to: .error)
 				default:
@@ -103,7 +103,7 @@ func rollThem(_ s: String) -> String {
 	var result = ""
 	var current = 0
 	var total = 0
-	if s.matches("[0-9]{1,2}d[0-9]{1,2}") {
+	if s.matches("[0-9]{1,2}d[0-9]{1,3}") {
 		let diceArr = s.components(separatedBy: "d")
 		let num = Int(diceArr[0])!
 		let type = Int(diceArr[1])!
