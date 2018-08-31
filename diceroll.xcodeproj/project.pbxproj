@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7F9B5EBE20D816BD007550EE /* diceroll */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = diceroll; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9B5EBE20D816BD007550EE /* diceroll */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.executable"; path = diceroll; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F9B5EC120D816BD007550EE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7F9B5EC820D816E0007550EE /* diceroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diceroll.swift; sourceTree = "<group>"; };
 		7F9B5ECA20D817D6007550EE /* ConsoleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
